@@ -64,12 +64,9 @@ const Dashboard = () => {
     <div className='App'>
       <Box sx={{display: 'flex', }}>
       <TextField value={todo} onChange={(e) => setTodo(e.target.value)} type='text' label="Enter your value" variant="outlined"/>
-      <Button onClick={handleAddTodo} variant='contained'>Add</Button>
+      <Button onClick={handleAddTodo} variant='outlined'>Add</Button>
       </Box>
       <Box>
-      <Typography sx={{ mt: 4, mb: 2 }} variant="h6" component="div">
-            Todo List with FireStore Database
-          </Typography>
             <List>
               
                 {
