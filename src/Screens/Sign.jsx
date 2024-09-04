@@ -72,6 +72,9 @@ const Sign = () => {
         <Button onClick={handleSign} variant="outlined">
           Sign up
         </Button>
+        <Button onClick={() => navigate('/login')} variant="outlined">
+          Already Sign up?
+        </Button>
       </Box>
     </>
   );
